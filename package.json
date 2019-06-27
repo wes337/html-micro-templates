@@ -13,12 +13,13 @@
   "scripts": {
     "test": "jest src/index.test.js"
   },
-  "homepage": "https://github.com/wes337/html-micro-templates#readme",
+  "homepage": "https://github.com/wes337/html-micro-templates",
   "bugs": "https://github.com/wes337/html-micro-templates/issues",
   "repository": {
     "url": "https://github.com/wes337/html-micro-templates",
     "type": "git"
   },
+  "readmeFilename": "README.md",
   "author": "Wes Moses <wesmoses@gmail.com>",
   "license": "MIT",
   "dependencies": {
