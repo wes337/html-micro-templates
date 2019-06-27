@@ -8,7 +8,7 @@
     "templating"
   ],
   "version": "1.0.0",
-  "description": "Micro templating that uses string interpolation to create HTML, and can parse html to create templating string literals.\"",
+  "description": "A tool that generates HTML elements from template literals (template strings), and can parse HTML back into template literals.",
   "main": "src/index.js",
   "scripts": {
     "test": "jest src/index.test.js"
