@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`elementToString should replace element with a button delimited string 1`] = `"\\"There should be a \${buttonElement} here, and a \${sectionElement} here.\\""`;
+
+exports[`parseHTML should return array of literals (with delimiters) 1`] = `
+Array [
+  "\${spanElement}",
+  "\${buttonElement}",
+]
+`;
+
+exports[`parseHTML should return array of literals 1`] = `
+Array [
+  "spanElement",
+  "buttonElement",
+]
+`;
+
+exports[`stringToElement should replace delimited string with a button element 1`] = `"There should be a <button class='variable buttonElement'>Button Text</button> here."`;
