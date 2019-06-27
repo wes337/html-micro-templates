@@ -1,0 +1,13 @@
+{
+  "name": "html-micro-templates",
+  "keywords": ["templates", "micro templates", "string interpolation", "reverse interpolation", "templating"],
+  "version": "1.0.0",
+  "description": "Micro templating that uses string interpolation to create HTML, and can parse html to create templating string literals.\"",
+  "main": "src/index.js",
+  "repository": {
+    "url": "https://github.com/wes337/html-micro-templates",
+    "type": "git"
+  },
+  "author": "Wes Moses <wesmoses@gmail.com>",
+  "license": "MIT"
+}
