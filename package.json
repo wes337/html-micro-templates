@@ -7,7 +7,7 @@
     "reverse interpolation",
     "templating"
   ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tool that generates HTML elements from template literals (template strings), and can parse HTML back into template literals.",
   "main": "src/index.js",
   "scripts": {
