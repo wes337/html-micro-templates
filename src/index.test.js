@@ -10,6 +10,15 @@ describe('stringToElement', () => {
             }, 'button'
         )).toMatchSnapshot()
     })
+    it('should replace delimited string with a self closing img element', () => {
+        const stringToConvert = 'There should be a ${img} here.'
+        expect(hMicroT.stringToElement(
+            { 
+                string: stringToConvert,
+                value: 'somePic.jpg',
+            }, 'img'
+        )).toMatchSnapshot()
+    })
 })
 
 describe('elementToString', () => {

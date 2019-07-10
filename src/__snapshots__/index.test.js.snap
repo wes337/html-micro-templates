@@ -17,3 +17,5 @@ Array [
 `;
 
 exports[`stringToElement should replace delimited string with a button element 1`] = `"There should be a <button class='variable buttonElement'>Button Text</button> here."`;
+
+exports[`stringToElement should replace delimited string with a self closing img element 1`] = `"There should be a <img class='variable img' src='somePic.jpg'/> here."`;
