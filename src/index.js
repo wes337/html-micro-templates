@@ -2,6 +2,9 @@ const stringToElement = (variable, element) => variable.string.replace(
     /\${([^}]+)\}/gi,
     (matched) => {
         const variableName = matched.substr(2, matched.length -3)
+        if (element.toLowerCase() === 'img') {
+            return `<${element} class='variable ${variableName}' src='${variable.value}'/>`
+        }
         return `<${element} class='variable ${variableName}'>${variable.value}</${element}>`
     }
 )
